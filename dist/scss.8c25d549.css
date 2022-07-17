@@ -4,6 +4,7 @@
 }
 
 #paler {
+  overflow: hidden;
   height: 100vh;
   background-color: #060a3d;
 }
@@ -53,51 +54,51 @@
 #paler .panels.panel2 {
   transform: translateX(-100vw);
 }
-#paler .panels .area-effect .panel-effect {
+#paler .panels .panel-effect {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100vw;
   height: 100%;
 }
-#paler .panels .area-effect .panel-effect .effect {
+#paler .panels .panel-effect .effect {
   display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
   height: 40vh;
 }
-#paler .panels .area-effect .panel-effect .effect > div {
+#paler .panels .panel-effect .effect > div {
   position: absolute;
   background-size: contain;
 }
-#paler .panels .area-effect .panel-effect .effect .effect-1 {
+#paler .panels .panel-effect .effect .effect-1 {
   width: 70vw;
   height: 70vw;
   background: url("/effect-no-move.e6a51026.svg") 0 0 no-repeat;
   animation: rotate 18s linear infinite;
 }
-#paler .panels .area-effect .panel-effect .effect .effect-2 {
+#paler .panels .panel-effect .effect .effect-2 {
   width: 60vw;
   height: 60vw;
   background: url("/effect-move1.8d0ce205.svg") 0 0 no-repeat;
   animation: rotate 12s linear infinite reverse;
 }
-#paler .panels .area-effect .panel-effect .effect .effect-3 {
+#paler .panels .panel-effect .effect .effect-3 {
   width: 24vw;
   height: 24vw;
   background: url("/effect-move2.143040a0.svg") 0 0 no-repeat;
   animation: rotate 9s linear infinite;
 }
-#paler .panels .area-effect .panel-effect .lyrics {
+#paler .panels .panel-effect .lyrics {
   text-align: center;
 }
-#paler .panels .area-effect .panel-effect .lyrics p {
+#paler .panels .panel-effect .lyrics p {
   margin-top: 8px;
   font-size: 14px;
   color: #868aaf;
 }
-#paler .panels .area-effect .panel-effect .lyrics p.current {
+#paler .panels .panel-effect .lyrics p.current {
   color: #fff;
 }
 #paler .global-footer {
